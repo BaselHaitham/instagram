@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1085594684169",
+    "project_id": "authinstaclone",
+    "storage_bucket": "authinstaclone.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085594684169:android:06fcd5c8c1c3d962ee21d8",
+        "android_client_info": {
+          "package_name": "com.example.instagram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8h7lHZiHZqOAx8y9c7ZWn94wIEKA6D3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
