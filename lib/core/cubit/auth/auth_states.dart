@@ -1,6 +1,9 @@
-class AuthStates {}
+abstract class AuthStates {}
 
-class AuthInitialState extends AuthStates {}
+class AuthInitialState extends AuthStates {
+  final bool isLoggedIn;
+  AuthInitialState(this.isLoggedIn);
+}
 
 class AuthLoginLoadingState extends AuthStates {}
 

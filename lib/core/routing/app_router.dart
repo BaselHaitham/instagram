@@ -10,8 +10,7 @@ class AppRouter {
         return getPageRoute(const LoginScreen());
 
       case Routes.splash:
-        bool isLoggedin = settings.arguments as bool;
-        return getPageRoute(SplashScreen(isloggedin: isLoggedin));
+        return getPageRoute(SplashScreen());
       default:
         return MaterialPageRoute(
           builder: (_) => Scaffold(
